@@ -1,0 +1,499 @@
+{
+  "Applications": [
+    {
+      "name": "Microsoft.PowerShell",
+      "category": "Development",
+      "executable": "pwsh"
+    },
+    {
+      "name": "Microsoft.VisualStudioCode",
+      "category": "Development",
+      "executable": "code"
+    },
+    {
+      "name": "Microsoft.WindowsTerminal",
+      "category": "Development",
+      "executable": "wt"
+    },
+    {
+      "name": "Git.Git",
+      "category": "Development",
+      "executable": "git"
+    },
+    {
+      "name": "Microsoft.VCRedist.2015+.x64",
+      "category": "Runtime",
+      "executable": null
+    },
+    {
+      "name": "Python.Python.3.13",
+      "category": "Development",
+      "executable": "python"
+    },
+    {
+      "name": "Microsoft.WSL",
+      "category": "Development",
+      "executable": "wsl"
+    },
+    {
+      "name": "Microsoft.VisualStudio.2022.Community",
+      "category": "IDE",
+      "executable": "devenv",
+      "requiresRestart": true
+    },
+    {
+      "name": "OpenJS.NodeJS.LTS",
+      "category": "Runtime",
+      "executable": "node"
+    },
+    {
+      "name": "OpenJS.NodeJS",
+      "category": "Runtime",
+      "executable": "node"
+    },
+    {
+      "name": "Microsoft.DotNet.SDK.8",
+      "category": "Runtime",
+      "executable": "dotnet"
+    },
+    {
+      "name": "Microsoft.DotNet.SDK.7",
+      "category": "Runtime",
+      "executable": "dotnet"
+    },
+    {
+      "name": "Docker.DockerDesktop",
+      "category": "Development",
+      "executable": "docker"
+    },
+    {
+      "name": "7zip.7zip",
+      "category": "Utilities",
+      "executable": "7z"
+    },
+    {
+      "name": "HulubuluSoftware.AdvancedRenamer",
+      "category": "Utilities",
+      "executable": null
+    },
+    {
+      "name": "Altap.Salamander",
+      "category": "Utilities",
+      "executable": null
+    },
+    {
+      "name": "CrystalDewWorld.CrystalDiskInfo",
+      "category": "System",
+      "executable": null
+    },
+    {
+      "name": "voidtools.Everything.Alpha",
+      "category": "Utilities",
+      "executable": "Everything"
+    },
+    {
+      "name": "IrfanSkiljan.IrfanView",
+      "category": "Media",
+      "executable": null
+    },
+    {
+      "name": "IrfanSkiljan.IrfanView.Plugins",
+      "category": "Media",
+      "executable": null
+    },
+    {
+      "name": "Mozilla.Firefox",
+      "category": "Web",
+      "executable": "firefox"
+    },
+    {
+      "name": "Waterfox.Waterfox",
+      "category": "Web",
+      "executable": null
+    },
+    {
+      "name": "Nlitesoft.NTLite",
+      "category": "System",
+      "executable": null
+    },
+    {
+      "name": "Notepad++.Notepad++",
+      "category": "Development",
+      "executable": "notepad++"
+    },
+    {
+      "name": "winaero.tweaker",
+      "category": "System",
+      "executable": null
+    },
+    {
+      "name": "AntibodySoftware.WizTree",
+      "category": "Utilities",
+      "executable": null
+    },
+    {
+      "name": "PeterPawlowski.foobar2000",
+      "category": "Media",
+      "executable": "foobar2000"
+    },
+    {
+      "name": "PeterPawlowski.foobar2000.encoderpack",
+      "category": "Media",
+      "executable": null
+    },
+    {
+      "name": "clsid2.mpc-hc",
+      "category": "Media",
+      "executable": "mpc-hc64"
+    },
+    {
+      "name": "Microsoft.CLRTypesSQLServer.2019",
+      "category": "Runtime",
+      "executable": null
+    },
+    {
+      "name": "Microsoft.EdgeWebView2Runtime",
+      "category": "Runtime",
+      "executable": null
+    },
+    {
+      "name": "Google.GoogleDrive",
+      "category": "Utilities",
+      "executable": null
+    },
+    {
+      "name": "Microsoft.Edit",
+      "category": "Development",
+      "executable": "edit"
+    },
+    {
+      "name": "Microsoft.DotNet.UninstallTool",
+      "category": "Development",
+      "executable": "dotnet-core-uninstall"
+    },
+    {
+      "name": "sylikc.JPEGView",
+      "category": "Media",
+      "executable": null
+    },
+    {
+      "name": "icsharpcode.ILSpy",
+      "category": "Development",
+      "executable": "ILSpy"
+    },
+    {
+      "name": "Google.Chrome",
+      "category": "Web",
+      "executable": "chrome"
+    },
+    {
+      "name": "Anysphere.Cursor",
+      "category": "Development",
+      "executable": "cursor"
+    },
+    {
+      "name": "ThioJoe.SvgThumbnailExtension",
+      "category": "Utilities",
+      "executable": null
+    },
+    {
+      "name": "dundee.gdu",
+      "category": "Utilities",
+      "executable": "gdu"
+    },
+    {
+      "name": "Microsoft.LogParser",
+      "category": "Development",
+      "executable": "logparser"
+    },
+    {
+      "name": "Microsoft.DotNet.RepairTool",
+      "category": "Development",
+      "executable": "dotnetrepair"
+    },
+    {
+      "name": "GNU.Wget2",
+      "category": "Utilities",
+      "executable": "wget2"
+    },
+    {
+      "name": "Google.Chrome.Dev",
+      "category": "Web",
+      "executable": "chrome"
+    },
+    {
+      "name": "Microsoft.NuGet",
+      "category": "Development",
+      "executable": "nuget"
+    },
+    {
+      "name": "Wagnardsoft.DisplayDriverUninstaller",
+      "category": "System",
+      "executable": null
+    },
+    {
+      "name": "Microsoft.Edge.Dev",
+      "category": "Web",
+      "executable": "msedge"
+    },
+    {
+      "name": "jsimlo.tednotepad",
+      "category": "Development",
+      "executable": null
+    },
+    {
+      "name": "cURL.cURL",
+      "category": "Utilities",
+      "executable": "curl"
+    },
+    {
+      "name": "Microsoft.VisualStudio.2022.BuildTools",
+      "category": "Development",
+      "executable": null,
+      "requiresRestart": true
+    },
+    {
+      "name": "Microsoft.DotNet.DesktopRuntime.6",
+      "category": "Runtime",
+      "executable": null
+    },
+    {
+      "name": "Microsoft.VCRedist.2015+.x86",
+      "category": "Runtime",
+      "executable": null
+    },
+    {
+      "name": "Microsoft.DotNet.DesktopRuntime.7",
+      "category": "Runtime",
+      "executable": null
+    },
+    {
+      "name": "Microsoft.WinDbg",
+      "category": "Development",
+      "executable": "windbg"
+    },
+    {
+      "name": "Microsoft.TimeTravelDebugging",
+      "category": "Development",
+      "executable": null
+    },
+    {
+      "name": "Microsoft.WindowsSDK.10.0.26100",
+      "category": "Development",
+      "executable": null
+    },
+    {
+      "name": "AngusJohnson.ResourceHacker",
+      "category": "Development",
+      "executable": "ResourceHacker"
+    },
+    {
+      "name": "Python.Launcher",
+      "category": "Development",
+      "executable": "py"
+    },
+    {
+      "name": "Microsoft.winfile",
+      "category": "Utilities",
+      "executable": "winfile"
+    },
+    {
+      "name": "Microsoft.WindowsADK",
+      "category": "Development",
+      "executable": null
+    },
+    {
+      "name": "Microsoft.WindowsWDK.10.0.26100",
+      "category": "Development",
+      "executable": null
+    },
+    {
+      "name": "Microsoft.DotNet.Runtime.6",
+      "category": "Runtime",
+      "executable": null
+    },
+    {
+      "name": "Microsoft.bitsmanager",
+      "category": "System",
+      "executable": "bitsadmin"
+    },
+    {
+      "name": "katahiromz.RisohEditor",
+      "category": "Development",
+      "executable": null
+    },
+    {
+      "name": "Microsoft.VisualStudioCode.CLI",
+      "category": "Development",
+      "executable": "code"
+    },
+    {
+      "name": "Microsoft.DotNet.DesktopRuntime.8",
+      "category": "Runtime",
+      "executable": null
+    },
+    {
+      "name": "Anthropic.Claude",
+      "category": "AI",
+      "executable": null
+    },
+    {
+      "name": "GitHub.GitHubDesktop",
+      "category": "Development",
+      "executable": null
+    },
+    {
+      "name": "Microsoft.err",
+      "category": "Development",
+      "executable": "err"
+    },
+    {
+      "name": "Gyan.FFmpeg",
+      "category": "Media",
+      "executable": "ffmpeg"
+    },
+    {
+      "name": "Microsoft.AppInstallerFileBuilder",
+      "category": "Development",
+      "executable": null
+    },
+    {
+      "name": "Microsoft.Sysinternals.Suite",
+      "category": "System",
+      "executable": null
+    },
+    {
+      "name": "Rclone.Rclone",
+      "category": "Utilities",
+      "executable": "rclone"
+    },
+    {
+      "name": "Microsoft.DSC",
+      "category": "Development",
+      "executable": "dsc"
+    },
+    {
+      "name": "Rufus.Rufus",
+      "category": "Utilities",
+      "executable": null
+    },
+    {
+      "name": "SumatraPDF.SumatraPDF",
+      "category": "Utilities",
+      "executable": "SumatraPDF"
+    },
+    {
+      "name": "Alex313031.Thorium",
+      "category": "Web",
+      "executable": null
+    },
+    {
+      "name": "dnSpyEx.dnSpy",
+      "category": "Development",
+      "executable": "dnSpy"
+    },
+    {
+      "name": "gsass1.NTop",
+      "category": "System",
+      "executable": "ntop"
+    },
+    {
+      "name": "lostindark.DriverStoreExplorer",
+      "category": "System",
+      "executable": null
+    },
+    {
+      "name": "mikf.gallery-dl",
+      "category": "Media",
+      "executable": "gallery-dl"
+    },
+    {
+      "name": "muesli.duf",
+      "category": "Utilities",
+      "executable": "duf"
+    },
+    {
+      "name": "WinSCP.WinSCP",
+      "category": "Utilities",
+      "executable": "WinSCP"
+    },
+    {
+      "name": "yt-dlp.FFmpeg",
+      "category": "Media",
+      "executable": null
+    },
+    {
+      "name": "yt-dlp.yt-dlp",
+      "category": "Media",
+      "executable": "yt-dlp"
+    },
+    {
+      "name": "Python.Python.3.10",
+      "category": "Development",
+      "executable": "python"
+    },
+    {
+      "name": "File-New-Project.EarTrumpet",
+      "category": "Utilities",
+      "executable": null
+    },
+    {
+      "name": "Microsoft.XMLNotepad",
+      "category": "Development",
+      "executable": null
+    },
+    {
+      "name": "ImageMagick.Q16",
+      "category": "Media",
+      "executable": "magick"
+    },
+    {
+      "name": "Microsoft.AppInstaller",
+      "category": "System",
+      "executable": null
+    },
+    {
+      "name": "Microsoft.FoundryLocal",
+      "category": "Development",
+      "executable": null
+    },
+    {
+      "name": "Microsoft.UI.Xaml.2.8",
+      "category": "Runtime",
+      "executable": null
+    },
+    {
+      "name": "Microsoft.VCLibs.Desktop.14",
+      "category": "Runtime",
+      "executable": null
+    },
+    {
+      "name": "Microsoft.WindowsTerminal.Preview",
+      "category": "Development",
+      "executable": "wt"
+    },
+    {
+      "name": "Microsoft.DeploymentToolkit",
+      "category": "Development",
+      "executable": null
+    }
+  ],
+  "NetworkOptimizations": {
+    "EnableDeliveryOptimization": true,
+    "EnableTCPOptimizations": true,
+    "EnableBandwidthThrottling": false,
+    "MaxBandwidthPercent": 80
+  },
+  "PackageManagement": {
+    "EnableParallelInstallation": true,
+    "MaxParallelJobs": 4,
+    "RetryAttempts": 3,
+    "RetryDelaySeconds": 5,
+    "EnableSourceValidation": true
+  },
+  "SystemOptimizations": {
+    "EnableVisualEffectsDisable": true,
+    "EnablePowerPlanOptimization": true,
+    "EnableNetworkOptimization": true
+  }
+}

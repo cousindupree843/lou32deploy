@@ -2149,16 +2149,16 @@ function Set-DockerConfiguration {
                 "gc" = @{
                     "enabled" = $true
                     "defaultKeepStorage" = "20GB"
-                    "policy" = @{
+                    "policy" = @(
                         @{
                             "keepStorage" = "10GB"
                             "filter" = @("unused-for=2160h")  # 90 days
-                        }
+                        },
                         @{
                             "keepStorage" = "50GB"
                             "all" = $true
                         }
-                    }
+                    )
                 }
             }
             "log-driver" = "json-file"

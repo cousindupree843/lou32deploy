@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="34" errors="0" failures="34" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2025-10-02" time="23:24:29">
+  <environment user-domain="DESKTOP-4CJK6IE" machine-name="DESKTOP-4CJK6IE" os-version="10.0.19045" user="louis" cwd="C:\Users\louis\Documents\GitHub\lou32deploy" platform="Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition3" clr-version="9.0.8" nunit-version="2.5.8.0" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Failure" success="False" time="57.0725" asserts="0" description="Pester">
+    <results>
+      <test-suite type="TestFixture" name="C:\Users\louis\Documents\GitHub\lou32deploy\tests\integration\FullSetup.Tests.ps1" executed="True" result="Failure" success="False" time="7.8965" asserts="0" description="C:\Users\louis\Documents\GitHub\lou32deploy\tests\integration\FullSetup.Tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Integration Tests - Full Setup Process" executed="True" result="Failure" success="False" time="0" asserts="0" description="Integration Tests - Full Setup Process">
+            <results>
+              <test-suite type="TestFixture" name="Integration Tests - Full Setup Process.Prerequisites and Configuration" executed="True" result="Failure" success="False" time="0" asserts="0" description="Integration Tests - Full Setup Process.Prerequisites and Configuration">
+                <results>
+                  <test-case description="Should complete prerequisites check successfully" name="Integration Tests - Full Setup Process.Prerequisites and Configuration.Should complete prerequisites check successfully" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Should load configuration successfully" name="Integration Tests - Full Setup Process.Prerequisites and Configuration.Should load configuration successfully" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Should initialize global variables correctly" name="Integration Tests - Full Setup Process.Prerequisites and Configuration.Should initialize global variables correctly" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Integration Tests - Full Setup Process.Logging and Progress Integration" executed="True" result="Failure" success="False" time="0" asserts="0" description="Integration Tests - Full Setup Process.Logging and Progress Integration">
+                <results>
+                  <test-case description="Should maintain consistent logging throughout process" name="Integration Tests - Full Setup Process.Logging and Progress Integration.Should maintain consistent logging throughout process" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Should handle error accumulation correctly" name="Integration Tests - Full Setup Process.Logging and Progress Integration.Should handle error accumulation correctly" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Integration Tests - Full Setup Process.Configuration and Package Integration" executed="True" result="Failure" success="False" time="0" asserts="0" description="Integration Tests - Full Setup Process.Configuration and Package Integration">
+                <results>
+                  <test-case description="Should resolve dependencies for configured packages" name="Integration Tests - Full Setup Process.Configuration and Package Integration.Should resolve dependencies for configured packages" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Should validate package management configuration" name="Integration Tests - Full Setup Process.Configuration and Package Integration.Should validate package management configuration" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\Configuration.Tests.ps1" executed="True" result="Failure" success="False" time="7.6888" asserts="0" description="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\Configuration.Tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Configuration Management" executed="True" result="Failure" success="False" time="0" asserts="0" description="Configuration Management">
+            <results>
+              <test-suite type="TestFixture" name="Configuration Management.Import-Configuration Function" executed="True" result="Failure" success="False" time="0" asserts="0" description="Configuration Management.Import-Configuration Function">
+                <results>
+                  <test-case description="Should handle missing configuration file gracefully" name="Configuration Management.Import-Configuration Function.Should handle missing configuration file gracefully" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Should import valid JSON configuration" name="Configuration Management.Import-Configuration Function.Should import valid JSON configuration" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Should handle invalid JSON gracefully" name="Configuration Management.Import-Configuration Function.Should handle invalid JSON gracefully" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Should merge configuration with defaults" name="Configuration Management.Import-Configuration Function.Should merge configuration with defaults" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Configuration Management.Global Configuration Variables" executed="True" result="Failure" success="False" time="0" asserts="0" description="Configuration Management.Global Configuration Variables">
+                <results>
+                  <test-case description="Should initialize Global:Configuration properly" name="Configuration Management.Global Configuration Variables.Should initialize Global:Configuration properly" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Should initialize Global:SetupReport properly" name="Configuration Management.Global Configuration Variables.Should initialize Global:SetupReport properly" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\Logging.Tests.ps1" executed="True" result="Failure" success="False" time="7.7089" asserts="0" description="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\Logging.Tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Write-Log Function" executed="True" result="Failure" success="False" time="0" asserts="0" description="Write-Log Function">
+            <results>
+              <test-suite type="TestFixture" name="Write-Log Function.Logging Functionality" executed="True" result="Failure" success="False" time="0" asserts="0" description="Write-Log Function.Logging Functionality">
+                <results>
+                  <test-case description="Should write log entry with INFO level" name="Write-Log Function.Logging Functionality.Should write log entry with INFO level" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Should write log entry with ERROR level" name="Write-Log Function.Logging Functionality.Should write log entry with ERROR level" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Should write log entry with WARNING level" name="Write-Log Function.Logging Functionality.Should write log entry with WARNING level" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Should write log entry with SUCCESS level" name="Write-Log Function.Logging Functionality.Should write log entry with SUCCESS level" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Should handle missing category parameter" name="Write-Log Function.Logging Functionality.Should handle missing category parameter" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Should format log entry with timestamp" name="Write-Log Function.Logging Functionality.Should format log entry with timestamp" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="Write-Progress Function" executed="True" result="Failure" success="False" time="0" asserts="0" description="Write-Progress Function">
+            <results>
+              <test-suite type="TestFixture" name="Write-Progress Function.Progress Tracking" executed="True" result="Failure" success="False" time="0" asserts="0" description="Write-Progress Function.Progress Tracking">
+                <results>
+                  <test-case description="Should calculate percentage correctly" name="Write-Progress Function.Progress Tracking.Should calculate percentage correctly" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Should handle zero total operations" name="Write-Progress Function.Progress Tracking.Should handle zero total operations" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Should accept manual percentage" name="Write-Progress Function.Progress Tracking.Should accept manual percentage" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\PackageManagement.Tests.ps1" executed="True" result="Failure" success="False" time="7.9315" asserts="0" description="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\PackageManagement.Tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Package Management" executed="True" result="Failure" success="False" time="0" asserts="0" description="Package Management">
+            <results>
+              <test-suite type="TestFixture" name="Package Management.Resolve-PackageDependencies Function" executed="True" result="Failure" success="False" time="0" asserts="0" description="Package Management.Resolve-PackageDependencies Function">
+                <results>
+                  <test-case description="Should return empty array for package with no dependencies" name="Package Management.Resolve-PackageDependencies Function.Should return empty array for package with no dependencies" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Should return dependencies for package with dependencies" name="Package Management.Resolve-PackageDependencies Function.Should return dependencies for package with dependencies" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Should handle unknown package gracefully" name="Package Management.Resolve-PackageDependencies Function.Should handle unknown package gracefully" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Package Management.Test-PackageInstallation Function" executed="True" result="Failure" success="False" time="0" asserts="0" description="Package Management.Test-PackageInstallation Function">
+                <results>
+                  <test-case description="Should validate package name parameter" name="Package Management.Test-PackageInstallation Function.Should validate package name parameter" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Should return boolean result" name="Package Management.Test-PackageInstallation Function.Should return boolean result" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Package Management.Test-PackageSource Function" executed="True" result="Failure" success="False" time="0" asserts="0" description="Package Management.Test-PackageSource Function">
+                <results>
+                  <test-case description="Should validate package source availability" name="Package Management.Test-PackageSource Function.Should validate package source availability" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Should handle invalid source gracefully" name="Package Management.Test-PackageSource Function.Should handle invalid source gracefully" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\Prerequisites.Tests.ps1" executed="True" result="Failure" success="False" time="25.8468" asserts="0" description="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\Prerequisites.Tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Prerequisites Validation" executed="True" result="Failure" success="False" time="0" asserts="0" description="Prerequisites Validation">
+            <results>
+              <test-suite type="TestFixture" name="Prerequisites Validation.Test-Prerequisites Function" executed="True" result="Failure" success="False" time="0" asserts="0" description="Prerequisites Validation.Test-Prerequisites Function">
+                <results>
+                  <test-case description="Should pass when all prerequisites are met" name="Prerequisites Validation.Test-Prerequisites Function.Should pass when all prerequisites are met" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Should validate Windows version requirement" name="Prerequisites Validation.Test-Prerequisites Function.Should validate Windows version requirement" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Should validate PowerShell version requirement" name="Prerequisites Validation.Test-Prerequisites Function.Should validate PowerShell version requirement" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Should validate administrator privileges" name="Prerequisites Validation.Test-Prerequisites Function.Should validate administrator privileges" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case description="Should update Global:SetupReport.Prerequisites" name="Prerequisites Validation.Test-Prerequisites Function.Should update Global:SetupReport.Prerequisites" time="0" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>This test should run but it did not. Most likely a setup in some parent block failed.</message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
