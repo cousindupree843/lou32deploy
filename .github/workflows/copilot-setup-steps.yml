@@ -1,0 +1,72 @@
+name: "Copilot Setup Steps"
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+  pull_request:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+
+jobs:
+  # The job MUST be called `copilot-setup-steps` or it will not be picked up by Copilot.
+  copilot-setup-steps:
+    runs-on: windows-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Set up PowerShell
+        shell: pwsh
+        run: |
+          Write-Host "PowerShell Version: $($PSVersionTable.PSVersion)"
+          Write-Host "Execution Policy: $(Get-ExecutionPolicy)"
+          
+      - name: Install PSScriptAnalyzer
+        shell: pwsh
+        run: |
+          Install-Module -Name PSScriptAnalyzer -Force -Scope CurrentUser
+          
+      - name: Install Pester
+        shell: pwsh
+        run: |
+          Install-Module -Name Pester -Force -Scope CurrentUser -SkipPublisherCheck
+          
+      - name: Run PowerShell Script Analyzer
+        shell: pwsh
+        run: |
+          $results = Invoke-ScriptAnalyzer -Path . -Recurse -Include "*.ps1","*.psm1" -Severity Warning,Error
+          if ($results) {
+            $results | Format-Table -AutoSize
+            Write-Error "PSScriptAnalyzer found issues"
+          } else {
+            Write-Host "No PSScriptAnalyzer issues found"
+          }
+          
+      - name: Run Pester Tests
+        shell: pwsh
+        run: |
+          if (Test-Path "*.Tests.ps1") {
+            Invoke-Pester -Path . -OutputFormat NUnitXml -OutputFile TestResults.xml
+          } else {
+            Write-Host "No Pester tests found"
+          }
+          
+      - name: Validate PowerShell syntax
+        shell: pwsh
+        run: |
+          $errors = @()
+          Get-ChildItem -Path . -Filter "*.ps1" -Recurse | ForEach-Object {
+            try {
+              $null = [System.Management.Automation.PSParser]::Tokenize((Get-Content $_.FullName -Raw), [ref]$null)
+              Write-Host "✓ $($_.Name) - Syntax OK"
+            } catch {
+              $errors += "✗ $($_.Name) - Syntax Error: $($_.Exception.Message)"
+            }
+          }
+          if ($errors) {
+            $errors | Write-Error
+            exit 1
+          }
