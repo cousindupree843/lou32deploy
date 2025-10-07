@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="34" errors="0" failures="34" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2025-10-02" time="23:24:29">
-  <environment user-domain="DESKTOP-4CJK6IE" machine-name="DESKTOP-4CJK6IE" os-version="10.0.19045" user="louis" cwd="C:\Users\louis\Documents\GitHub\lou32deploy" platform="Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition3" clr-version="9.0.8" nunit-version="2.5.8.0" />
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="34" errors="0" failures="34" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2025-10-06" time="23:04:35">
+  <environment user-domain="DESKTOP-4CJK6IE" nunit-version="2.5.8.0" clr-version="9.0.8" cwd="C:\Users\louis\Documents\GitHub\lou32deploy" machine-name="DESKTOP-4CJK6IE" user="louis" os-version="10.0.19045" platform="Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition3" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite type="TestFixture" name="Pester" executed="True" result="Failure" success="False" time="57.0725" asserts="0" description="Pester">
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Failure" success="False" time="54.3268" asserts="0" description="Pester">
     <results>
-      <test-suite type="TestFixture" name="C:\Users\louis\Documents\GitHub\lou32deploy\tests\integration\FullSetup.Tests.ps1" executed="True" result="Failure" success="False" time="7.8965" asserts="0" description="C:\Users\louis\Documents\GitHub\lou32deploy\tests\integration\FullSetup.Tests.ps1">
+      <test-suite type="TestFixture" name="C:\Users\louis\Documents\GitHub\lou32deploy\tests\integration\FullSetup.Tests.ps1" executed="True" result="Failure" success="False" time="19.9477" asserts="0" description="C:\Users\louis\Documents\GitHub\lou32deploy\tests\integration\FullSetup.Tests.ps1">
         <results>
           <test-suite type="TestFixture" name="Integration Tests - Full Setup Process" executed="True" result="Failure" success="False" time="0" asserts="0" description="Integration Tests - Full Setup Process">
             <results>
@@ -66,7 +66,7 @@
           </test-suite>
         </results>
       </test-suite>
-      <test-suite type="TestFixture" name="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\Configuration.Tests.ps1" executed="True" result="Failure" success="False" time="7.6888" asserts="0" description="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\Configuration.Tests.ps1">
+      <test-suite type="TestFixture" name="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\Configuration.Tests.ps1" executed="True" result="Failure" success="False" time="8.3341" asserts="0" description="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\Configuration.Tests.ps1">
         <results>
           <test-suite type="TestFixture" name="Configuration Management" executed="True" result="Failure" success="False" time="0" asserts="0" description="Configuration Management">
             <results>
@@ -118,7 +118,7 @@
           </test-suite>
         </results>
       </test-suite>
-      <test-suite type="TestFixture" name="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\Logging.Tests.ps1" executed="True" result="Failure" success="False" time="7.7089" asserts="0" description="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\Logging.Tests.ps1">
+      <test-suite type="TestFixture" name="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\Logging.Tests.ps1" executed="True" result="Failure" success="False" time="8.494" asserts="0" description="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\Logging.Tests.ps1">
         <results>
           <test-suite type="TestFixture" name="Write-Log Function" executed="True" result="Failure" success="False" time="0" asserts="0" description="Write-Log Function">
             <results>
@@ -192,7 +192,7 @@
           </test-suite>
         </results>
       </test-suite>
-      <test-suite type="TestFixture" name="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\PackageManagement.Tests.ps1" executed="True" result="Failure" success="False" time="7.9315" asserts="0" description="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\PackageManagement.Tests.ps1">
+      <test-suite type="TestFixture" name="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\PackageManagement.Tests.ps1" executed="True" result="Failure" success="False" time="8.5367" asserts="0" description="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\PackageManagement.Tests.ps1">
         <results>
           <test-suite type="TestFixture" name="Package Management" executed="True" result="Failure" success="False" time="0" asserts="0" description="Package Management">
             <results>
@@ -254,7 +254,7 @@
           </test-suite>
         </results>
       </test-suite>
-      <test-suite type="TestFixture" name="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\Prerequisites.Tests.ps1" executed="True" result="Failure" success="False" time="25.8468" asserts="0" description="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\Prerequisites.Tests.ps1">
+      <test-suite type="TestFixture" name="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\Prerequisites.Tests.ps1" executed="True" result="Failure" success="False" time="9.0142" asserts="0" description="C:\Users\louis\Documents\GitHub\lou32deploy\tests\unit\Prerequisites.Tests.ps1">
         <results>
           <test-suite type="TestFixture" name="Prerequisites Validation" executed="True" result="Failure" success="False" time="0" asserts="0" description="Prerequisites Validation">
             <results>
